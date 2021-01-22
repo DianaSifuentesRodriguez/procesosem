@@ -1,0 +1,92 @@
+{ 
+
+    "sites":[
+        
+        {
+            "site" : "inicio", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "rprocesos", 
+            "access" : "private", 
+            "role" : "02"
+        },
+        {
+            "site" : "iniciodos", 
+            "access" : "private", 
+            "role" : "02"
+        },
+        {
+            "site" : "verempresa", 
+            "access" : "private", 
+            "role" : "02"
+        },
+        {
+            "site" : "rproysub", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "addpys", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "definirpya", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "edituser", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "listaruser", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "perfiluser", 
+            "access" : "private", 
+            "role" : "02"
+        },
+        {
+            "site" : "editmiuser", 
+            "access" : "private", 
+            "role" : "02"
+        },
+        {
+            "site" : "reguser", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "listarempresa", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "regempresa", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "editempresa", 
+            "access" : "private", 
+            "role" : "01"
+        },
+        {
+            "site" : "editempresauser", 
+            "access" : "private", 
+            "role" : "02"
+        }
+    ],
+
+    "default-sites":{
+        "01": "inicio",
+        "02": "iniciodos"
+        
+    }
+}
